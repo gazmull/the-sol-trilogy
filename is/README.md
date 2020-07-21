@@ -20,7 +20,7 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
   - `SHIFT` + `S` - Start/stop Director with current mode
 - Settings are saved
 - Before starting Director, the user must set their preferred party and on idle state (no battles ongoing)
-  - You can stop Director anytime but it will start a run anyway when it starts to propagate quest points (AP/BP)
+  - The user can stop Director anytime but it will start *a run* anyway when it starts to propagate quest points (AP/BP)
   - **FOR EVENTS**: The user must go to the event's top page before starting Director
 - Default settings:
 ```js

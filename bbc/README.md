@@ -13,7 +13,7 @@ Derived from ctr's scripts.
       - Toggle from left to right: 30-60-20-30-60-2— you know what, it's a loop
 
 ## Features
-Hotkeyed features are saved.
+Hotkeyed features' settings are saved.
 
 ### Disabled/Removed Game Features
 - Rescue request popup
