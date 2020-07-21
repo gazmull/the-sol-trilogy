@@ -23,8 +23,8 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
   - You can stop Director anytime but it will start a run anyway when it starts to propagate quest points (AP/BP)
   - **FOR EVENTS**: The user must go to the event's top page before starting Director
 - Default settings:
-```json
-{
+```js
+({
     ue: {
         difficulty: 'Expert',
         boss: 'seraph'
@@ -55,7 +55,7 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
 
     enabled: false,
     mode: 'DAILY' // SP Quest
-}
+})
 ```
 
 ## Configuring with Settings Panel
@@ -64,7 +64,10 @@ Reminder: Hotkey is `CTRL` + `SHIFT` + `S`
 <center><img alt="settings" src="../assets/is/Settings.png"></center>
 
 ### Auto Modes
-Described as `Quest Type` in settings panel
+Described as `Quest Type` in settings panel.
+
+<center><img alt="questtype" src="../assets/is/Auto%20Mode.png"></center>
+
 - `Union Event`: Joins a battle that has less than 8 participants, and more than or is equal to 50% HP
 - `Advent Battle`: Starts battle with specified difficulty (default: expert)
 - `Raid Event`: Starts battle from STD and stops at the max materials specified, and then jumps to higher difficulties and consume their tokens
