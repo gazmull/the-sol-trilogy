@@ -1,0 +1,35 @@
+# ![asicon](../assets/as/icon.png) Albino Sol
+I was playing Metro Exodus, okay? Threesome btw
+
+Auto enhances le rotting fodder storage.
+
+## What's New
+![AS Version](https://img.shields.io/badge/AS-v0.1.0-A6C2E6) - 01-07-2020
+
+## Activation
+- Toggle Hotkey: `Shift` + `E`
+- User must be in my page/equipment page AND idle first!
+
+## Conditions
+> ### Legend
+> - SRG = SR Grail
+> - RG = R Grail
+
+- If there are >= 10 RG and there are SRG/SR, use it as fodder to SRG / SR
+- If there < 3/6/10 (req. for RG/SR/SRG) R and there are SRG/SR, use RG as fodder to SRG / SR
+- If none of the above is met, use R as fodder being top priority from left: SRG, SR, RG
+- SRG = SL5
+- SR = SL4
+- RG = SL4
+
+First condition can be modified by:
+> ![condition](../assets/as/condition.png)
+
+## Demo
+
+## Installation
+- Battle-tested in [Google Chrome](https://www.google.com/chrome/index.html) and [Microsoft Edge (Chromium)](https://www.microsoft.com/en-us/edge)
+- Requires [TamperMonkey](https://www.tampermonkey.net/) extension installed
+- Download: Right in my asshole
+
+## [Copyright](../README.md#Copyright)
