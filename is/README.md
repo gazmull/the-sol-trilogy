@@ -16,6 +16,7 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
 ### Fixed
 - Unexpected behaviour on waiting ap/bp regeneration where it still gets triggered even when Director got a new task
 - Properly show current settings panel context
+- Overlooked missing `Phantom` option in preferred element settings
 
 ### Removed
 - `Skip Ultimate` option in `Quest Preparation` settings in favour of `Raid Quest` settings
