@@ -4,13 +4,21 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
-![IS Version](https://img.shields.io/badge/IS-v0.7.0-orange) - 03-07-2020
+![IS Version](https://img.shields.io/badge/IS-v0.8.0-orange) - 31-07-2020
 
 ### Added
-- `Difficulties to farm` option in `Raid Event` settings
+- `Main Quest` mode
+- `Raid Quest` settings
 
 ### Changed
-- Raid Event mode's `nth run` notification now shows current difficulty
+- Compact text arrangements on some settings (less newlines)
+
+### Fixed
+- Unexpected behaviour on waiting ap/bp regeneration where it still gets triggered even when Director got a new task
+- Properly show current settings panel context
+
+### Removed
+- `Skip Ultimate` option in `Quest Preparation` settings in favour of `Raid Quest` settings
 
 ## ⚠️ Preface
 - **Director** = the script itself
@@ -29,9 +37,16 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
         difficulty: 'Expert',
         boss: 'seraph'
     },
+    main: {
+      maxRebattles: 1,
+      quests: [ MAIN_QUESTS.ROTTEN, MAIN_QUESTS.SHADOW ]
+    },
     daily: {
         maxRebattles: 1,
         elements: [ DAILY_QUESTS.LIGHT ]
+    },
+    raid: {
+      difficulties: RAID_QUESTS.FIRE.concat(RAID_QUESTS.LIGHT)
     },
     advent: {
         maxRebattles: 1,
@@ -46,7 +61,6 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
     heThreshold: 500,
     element: ELEMENTS.LIGHT,
     medeaIsShit: true,
-    skipUltimate: false,
     shareRaid: {
         all: false,
         friends: false,
@@ -68,11 +82,12 @@ Described as `Quest Type` in settings panel.
 
 <center><img alt="questtype" src="../assets/is/Auto%20Mode.png"></center>
 
-- `Union Event`: Joins a battle that has less than 8 participants, and more than or is equal to 50% HP
+- `Main Quest (T4 Souls Req)`: Starts battle in the check list. The max re-battles specified is **per quest** in the list.
+- `SP Quest (Fangs)`: Starts battle from the first element set in the list. The max re-battles specified is **per element** in the list
+- `Raid Quest`: Starts battle from STD-ULT all elements
 - `Advent Battle`: Starts battle with specified difficulty (default: expert)
 - `Raid Event`: Starts battle from STD and stops at the max materials specified, and then jumps to higher difficulties and consume their tokens
-- `Raid Quest`: Starts battle from STD-ULT all elements
-- `SP Quest (Fangs)`: Starts battle from the first element set in the list. The max re-battles specified is **per element** in the list
+- - `Union Event`: Joins a battle that has less than 8 participants, and more than or is equal to 50% HP
 
 ### Quest Preparation
 
@@ -85,8 +100,14 @@ Described as `Quest Type` in settings panel.
 - `Half Elixir Threshold` - Dictates Director to stop using HE and use regen'd AP once the remaining count reaches the specified threshold
 - `Seed Threshold` - Dictates Director to stop using seeds and use regen'd BP once the remaining count reaches the specified threshold
 - `Medea is Shit` - If enabled, Director prefers AB on easy contents (being beginner, standard, expert difficulties)
-- `Skip Raid Quest Ultimates` - If enabled, Director only does STD-EXP raid quests
 - `Raid Sharing` - Self-explanatory
+
+### Main Quest
+
+<center><img alt="mainquest" src="../assets/is/Main%20Quest.png"></center>
+
+- `Max Re-battles Per Quest` - Self-explanatory
+- `Quests to do` - Dictates Director to do the [quests](https://kamihime-project.fandom.com/wiki/Souls#S_Class) that drop the T4 required materials in the following checked realms
 
 ### SP Quest (Fangs)
 To set the re-battle to infinite, set **re-battles to `0`** and there should be **only `one element` in elements to farm**.
@@ -95,6 +116,11 @@ To set the re-battle to infinite, set **re-battles to `0`** and there should be 
 
 - `Max Re-battles Per Element` - Self-explanatory
 - `Elements to Farm in Order` - Self-explanatory
+
+### Raid Quest (STD-ULT)
+Dictates Director to do the following checked quests.
+
+<center><img alt="raidquest" src="../assets/is/Raid%20Quest.png"></center>
 
 ### Advent Battle
 To set the re-battle to infinite, set **re-battles to `0`**.
