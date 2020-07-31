@@ -4,6 +4,11 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
+![IS Version](https://img.shields.io/badge/IS-v0.8.1-orange) - 31-07-2020
+
+### Fixed
+- Half Elixir not being used on main quest
+
 ![IS Version](https://img.shields.io/badge/IS-v0.8.0-orange) - 31-07-2020
 
 ### Added
@@ -28,7 +33,7 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
   - `SHIFT` + `D` - Show current settings
   - `SHIFT` + `S` - Start/stop Director with current mode
 - Settings are saved
-- Before starting Director, the user must set their preferred party and on idle state (no battles ongoing)
+- Before starting Director, the user must set their preferred party, on idle state (no battles ongoing), and has already cleared the mode's battle(s) at least once
   - The user can stop Director anytime but it will start *a run* anyway when it starts to propagate quest points (AP/BP)
   - **FOR EVENTS**: The user must go to the event's top page before starting Director
 - Default settings:
@@ -83,7 +88,7 @@ Described as `Quest Type` in settings panel.
 
 <center><img alt="questtype" src="../assets/is/Auto%20Mode.png"></center>
 
-- `Main Quest (T4 Souls Req)`: Starts battle in the check list. The max re-battles specified is **per quest** in the list.
+- `Main Quest (T4 Souls Req)`: Starts battle in the check list. The max re-battles specified is **per quest** in the list
 - `SP Quest (Fangs)`: Starts battle from the first element set in the list. The max re-battles specified is **per element** in the list
 - `Raid Quest`: Starts battle from STD-ULT all elements
 - `Advent Battle`: Starts battle with specified difficulty (default: expert)
@@ -119,7 +124,7 @@ To set the re-battle to infinite, set **re-battles to `0`** and there should be 
 - `Elements to Farm in Order` - Self-explanatory
 
 ### Raid Quest (STD-ULT)
-Dictates Director to do the following checked quests.
+Dictates Director to do the following checked quests:
 
 <center><img alt="raidquest" src="../assets/is/Raid%20Quest.png"></center>
 
