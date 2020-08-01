@@ -4,6 +4,11 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
+![IS Version](https://img.shields.io/badge/IS-v0.8.2-orange) - 01-08-2020
+
+### Fixed
+- `Raid Event` mode does not properly check if the user has enough tokens amount to start expert/ragnarok difficulty if standard difficulty was set to be skipped
+
 ![IS Version](https://img.shields.io/badge/IS-v0.8.1-orange) - 31-07-2020
 
 ### Fixed
@@ -93,7 +98,7 @@ Described as `Quest Type` in settings panel.
 - `Raid Quest`: Starts battle from STD-ULT all elements
 - `Advent Battle`: Starts battle with specified difficulty (default: expert)
 - `Raid Event`: Starts battle from STD and stops at the max materials specified, and then jumps to higher difficulties and consume their tokens
-- - `Union Event`: Joins a battle that has less than 8 participants, and more than or is equal to 50% HP
+- `Union Event`: Joins a battle that has less than 8 participants, and more than or is equal to 50% HP
 
 ### Quest Preparation
 
