@@ -4,6 +4,11 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
+![IS Version](https://img.shields.io/badge/IS-v0.8.3-orange) - 03-08-2020
+
+### Fixed
+- Missing RAINBOW option in `SP Quest (Fangs)` settings
+
 ![IS Version](https://img.shields.io/badge/IS-v0.8.2-orange) - 01-08-2020
 
 ### Fixed
