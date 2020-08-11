@@ -4,42 +4,13 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
-![IS Version](https://img.shields.io/badge/IS-v0.8.4-orange) - 06-08-2020
-
-### Fixed
-- Regression on `v0.8.2` regarding `Raid Event` mode
-
-![IS Version](https://img.shields.io/badge/IS-v0.8.3-orange) - 03-08-2020
-
-### Fixed
-- Missing RAINBOW option in `SP Quest (Fangs)` settings
-
-![IS Version](https://img.shields.io/badge/IS-v0.8.2-orange) - 01-08-2020
-
-### Fixed
-- `Raid Event` mode does not properly check if the user has enough tokens amount to start expert/ragnarok difficulty if standard difficulty was set to be skipped
-
-![IS Version](https://img.shields.io/badge/IS-v0.8.1-orange) - 31-07-2020
-
-### Fixed
-- Half Elixir not being used on main quest
-
-![IS Version](https://img.shields.io/badge/IS-v0.8.0-orange) - 31-07-2020
+![IS Version](https://img.shields.io/badge/IS-v0.9.0-orange) - 12-08-2020
 
 ### Added
-- `Main Quest` mode
-- `Raid Quest` settings
+- `KH / GEM / WEAP / EIDO` options for `SP Quest` mode
 
 ### Changed
-- Compact text arrangements on some settings (less newlines)
-
-### Fixed
-- Unexpected behaviour on waiting ap/bp regeneration where it still gets triggered even when Director got a new task
-- Properly show current settings panel context
-- Overlooked missing `Phantom` option in preferred element settings
-
-### Removed
-- `Skip Ultimate` option in `Quest Preparation` settings in favour of `Raid Quest` settings
+- `SP Quest (Fangs)` renamed to `SP Quest`
 
 ## ⚠️ Preface
 - **Director** = the script itself
