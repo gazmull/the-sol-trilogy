@@ -4,13 +4,13 @@ Originally Battle Convenience Package. Self explanatory.
 Derived from ctr's scripts.
 
 ## What's New
-![BBC Version](https://img.shields.io/badge/BBC-v0.10.0-orange) - 10-07-2020
+![BBC Version](https://img.shields.io/badge/BBC-v0.11.0-orange) - 12-08-2020
 
 ### Added
-- Frame Rate Changer
-    - **Default**: `30` (game default)
-    - **Hotkey**: `F`
-      - Toggle from left to right: 30-60-20-30-60-2— you know what, it's a loop
+- Added percentage on damage done display
+
+### Changed
+- Script's Icon
 
 ## Features
 Hotkeyed features' settings are saved.
