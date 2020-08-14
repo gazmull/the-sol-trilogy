@@ -4,13 +4,13 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
-![IS Version](https://img.shields.io/badge/IS-v0.9.0-orange) - 12-08-2020
+![IS Version](https://img.shields.io/badge/IS-v0.10.0-orange) - 14-08-2020
 
 ### Added
-- `KH / GEM / WEAP / EIDO` options for `SP Quest` mode
+- `Labyrinth` Mode
 
-### Changed
-- `SP Quest (Fangs)` renamed to `SP Quest`
+### Internal
+- Experimental: Refactored event ID fetching
 
 ## ⚠️ Preface
 - **Director** = the script itself
@@ -79,6 +79,7 @@ Described as `Quest Type` in settings panel.
 - `Raid Quest`: Starts battle from STD-ULT all elements
 - `Advent Battle`: Starts battle with specified difficulty (default: expert)
 - `Raid Event`: Starts battle from STD and stops at the max materials specified, and then jumps to higher difficulties and consume their tokens
+- `Labyrint Exploration`: Starts battle from Ultimate difficulty. Will re-take the quest if the user's team died.
 - `Union Event`: Joins a battle that has less than 8 participants, and more than or is equal to 50% HP
 
 ### Quest Preparation
