@@ -4,6 +4,12 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
+![IS Version](https://img.shields.io/badge/IS-v0.10.1-orange) - 15-08-2020
+
+### Fixed
+- `Labyrinth` mode's monitoring of party's state being prone to Dark Soul's death message
+- `Labyrinth` mode's checkAPBP being prone to making Director brain dead
+
 ![IS Version](https://img.shields.io/badge/IS-v0.10.0-orange) - 14-08-2020
 
 ### Added
