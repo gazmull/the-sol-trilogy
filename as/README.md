@@ -4,6 +4,12 @@ I was playing Metro Exodus, okay? Threesome btw
 Auto enhances le rotting fodder storage.
 
 ## What's New
+![AS Version](https://img.shields.io/badge/AS-v0.2.1-A6C2E6) - 20-08-2020
+
+### Fixed
+- Now excludes weapons that are equipped, locked, or *aroused* :waitWhat:
+- Optimised Sol Notification to display relevant text properly
+
 ![AS Version](https://img.shields.io/badge/AS-v0.2.0-A6C2E6) - 12-08-2020
 
 ### Added
