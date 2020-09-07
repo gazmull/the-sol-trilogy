@@ -11,5 +11,6 @@ Unauthorised redistribution of the following software via any medium is strictly
  - Sol's Big Black Cock
  - Infant Sol
  - Albino Sol
+ - Djehuti
 
 Authored by gazmull (thegzm.space), May 2020
