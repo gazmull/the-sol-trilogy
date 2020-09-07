@@ -93,7 +93,7 @@ Described as `Quest Type` in settings panel.
 - `Main Quest (T4 Souls Req)`: Starts battle in the check list. The max re-battles specified is **per quest** in the list
 - `SP Quest (Fangs)`: Starts battle from the first element set in the list. The max re-battles specified is **per element** in the list
 - `Raid Quest`: Starts battle from STD-ULT all elements
-- `Raid Quest Leeching`: Joins a battle that has less than 18 participans and complies to user's conditions in settings panel
+- `Raid Quest Leeching`: Joins a battle that has less than 18 participants and complies to user's conditions in settings panel
 - `Advent Battle`: Starts battle with specified difficulty (default: expert)
 - `Raid Event`: Starts battle from STD and stops at the max materials specified, and then jumps to higher difficulties and consume their tokens
 - `Labyrint Exploration`: Starts battle from Ultimate difficulty. Will re-take the quest if the user's team died.
