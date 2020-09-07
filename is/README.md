@@ -4,19 +4,20 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
-![IS Version](https://img.shields.io/badge/IS-v0.10.1-orange) - 15-08-2020
-
-### Fixed
-- `Labyrinth` mode's monitoring of party's state being prone to Dark Soul's death message
-- `Labyrinth` mode's checkAPBP being prone to making Director brain dead
-
-![IS Version](https://img.shields.io/badge/IS-v0.10.0-orange) - 14-08-2020
+![IS Version](https://img.shields.io/badge/IS-v0.11.0-orange) - 07-09-2020
 
 ### Added
-- `Labyrinth` Mode
+- Raid Quest Leeching Mode
+- Starting Director now displays the current mode on Sol Notification
 
-### Internal
-- Experimental: Refactored event ID fetching
+### Changed
+- Script's initialisation now starts 10 seconds after the game has loaded
+- Improved sleep implementation to prevent invoking the last to-be-called function(s)
+- (UE / Raid Leech) `Still Attacking` checker function changed interval from 2 minutes to 5 minutes
+- Make error notifications permanently visible
+
+### Fixed
+- (UE / Raid Leech) Auto-reload function crashes the game
 
 ## ⚠️ Preface
 - **Director** = the script itself
@@ -26,7 +27,7 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
   - `SHIFT` + `S` - Start/stop Director with current mode
 - Settings are saved
 - Before starting Director, the user must set their preferred party, on idle state (no battles ongoing), and has already cleared the mode's battle(s) at least once
-  - The user can stop Director anytime but it will start *a run* anyway when it starts to propagate quest points (AP/BP)
+  - The user can stop Director anytime
   - **FOR EVENTS**: The user must go to the event's top page before starting Director
 - Default settings:
 ```js
@@ -45,6 +46,15 @@ Best used with [Sol's Black Cock](../bbc/README.md)!
     },
     raid: {
       difficulties: RAID_QUESTS.FIRE.concat(RAID_QUESTS.LIGHT)
+    },
+    raidLeech: {
+      quests: [ 'fire-grd', 'light-cat' ],
+      minHP: 25,
+      maxHP: 50,
+      minTime: 20,
+      maxTime: 59,
+      unionOnly: true,
+      fifoAll: true
     },
     advent: {
         maxRebattles: 1,
@@ -83,6 +93,7 @@ Described as `Quest Type` in settings panel.
 - `Main Quest (T4 Souls Req)`: Starts battle in the check list. The max re-battles specified is **per quest** in the list
 - `SP Quest (Fangs)`: Starts battle from the first element set in the list. The max re-battles specified is **per element** in the list
 - `Raid Quest`: Starts battle from STD-ULT all elements
+- `Raid Quest Leeching`: Joins a battle that has less than 18 participans and complies to user's conditions in settings panel
 - `Advent Battle`: Starts battle with specified difficulty (default: expert)
 - `Raid Event`: Starts battle from STD and stops at the max materials specified, and then jumps to higher difficulties and consume their tokens
 - `Labyrint Exploration`: Starts battle from Ultimate difficulty. Will re-take the quest if the user's team died.
@@ -120,6 +131,17 @@ To set the re-battle to infinite, set **re-battles to `0`** and there should be 
 Dictates Director to do the following checked quests:
 
 <center><img alt="raidquest" src="../assets/is/Raid%20Quest.png"></center>
+
+### Raid Quest Leeching
+Dictates Director to check the following conditions before joining a qualified raid:
+
+<center><img alt="raidquestleech" src="../assets/is/Raid%20Quest%20Leeching.png"></center>
+
+- `Union Only` - Self-explanatory
+- `FIFO + All Raids` - Ignores `Quests to Leech / Priority List` and will seek the oldest raid
+- `Time Range (by minutes)` - Self-explanatory. Min: 10, Max: 59
+- `HP% Range` - Self-explanator. Min: 10, Max: 100
+- `Quests to Leech / Priority List` - Only seek the quests listed by the user. Leftmost being the top priority
 
 ### Advent Battle
 To set the re-battle to infinite, set **re-battles to `0`**.
