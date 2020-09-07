@@ -4,24 +4,31 @@ Originally Battle Convenience Package. Self explanatory.
 Derived from ctr's scripts.
 
 ## What's New
-![BBC Version](https://img.shields.io/badge/BBC-v0.11.0-orange) - 12-08-2020
+![BBC Version](https://img.shields.io/badge/BBC-v0.12.0-orange) - 07-09-2020
 
 ### Added
-- Added percentage on damage done display
-
-### Changed
-- Script's Icon
+- Block `Reflect` message
+- Game freezing errors patch
+- Game shortcuts:
+  - Hotkey `R`: **Goes to public raids list**
+  - Hotkey `T`: **Goes to your raid quests list**
 
 ## Features
 Hotkeyed features' settings are saved.
 
-### Disabled/Removed Game Features
+### Disabled/Removed/Patched Game Features
 - Rescue request popup
 - Server connection error popup
 - Error data being sent to the server
 - Battle start animation
 - Ability casting minor delay
 - Enemy mode gauge phase change message
+- Reflect damage message
+- Game freezes (or Nikes)
+
+### Game Shortcuts
+- Hotkey `R`: **Goes to public raids list**
+- Hotkey `T`: **Goes to your raid quests list**
 
 ### Frame Rate Changer
 - **Default**: `30` (game default)
