@@ -4,6 +4,15 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
+![IS Version](https://img.shields.io/badge/IS-v0.11.1-orange) - 13-09-2020
+
+### Changed
+- Script's initialisation changed to 5 seconds after the game has loaded
+
+### Fixed
+- Trying to call game API while it's not yet loaded
+- Error function patching being bypassed
+
 ![IS Version](https://img.shields.io/badge/IS-v0.11.0-orange) - 07-09-2020
 
 ### Added
