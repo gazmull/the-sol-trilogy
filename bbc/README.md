@@ -4,6 +4,11 @@ Originally Battle Convenience Package. Self explanatory.
 Derived from ctr's scripts.
 
 ## What's New
+![BBC Version](https://img.shields.io/badge/BBC-v0.12.1-orange) - 13-09-2020
+
+### Fixed
+- Another instance of game freezing code
+
 ![BBC Version](https://img.shields.io/badge/BBC-v0.12.0-orange) - 07-09-2020
 
 ### Added
