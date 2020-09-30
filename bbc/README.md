@@ -4,6 +4,14 @@ Originally Battle Convenience Package. Self explanatory.
 Derived from ctr's scripts.
 
 ## What's New
+![BBC Version](https://img.shields.io/badge/BBC-v0.12.2-orange) - 01-10-2020
+
+### Changed
+- Removed HP% (ESP)
+
+### Fixed
+- Accommodate changes to rescue popup (disabled rescue popup)
+
 ![BBC Version](https://img.shields.io/badge/BBC-v0.12.1-orange) - 13-09-2020
 
 ### Fixed
