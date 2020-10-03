@@ -4,6 +4,11 @@ Originally Battle Convenience Package. Self explanatory.
 Derived from ctr's scripts.
 
 ## What's New
+![BBC Version](https://img.shields.io/badge/BBC-v0.12.3-orange) - 03-10-2020
+
+### Fixed
+- Numeric HP value overalapping HP% (ESP)
+
 ![BBC Version](https://img.shields.io/badge/BBC-v0.12.2-orange) - 01-10-2020
 
 ### Changed
