@@ -4,29 +4,23 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
-![IS Version](https://img.shields.io/badge/IS-v0.11.1-orange) - 13-09-2020
-
-### Changed
-- Script's initialisation changed to 5 seconds after the game has loaded
-
-### Fixed
-- Trying to call game API while it's not yet loaded
-- Error function patching being bypassed
-
-![IS Version](https://img.shields.io/badge/IS-v0.11.0-orange) - 07-09-2020
+![IS Version](https://img.shields.io/badge/IS-v0.12.0-orange) - 10-10-2020
 
 ### Added
-- Raid Quest Leeching Mode
-- Starting Director now displays the current mode on Sol Notification
+- Weekly Advent Mode
+- UE mode room joining settings (Raid # to join)
+- Added auto attack behaviour for UE mode if boss has less than 10 million HP
 
 ### Changed
-- Script's initialisation now starts 10 seconds after the game has loaded
-- Improved sleep implementation to prevent invoking the last to-be-called function(s)
-- (UE / Raid Leech) `Still Attacking` checker function changed interval from 2 minutes to 5 minutes
-- Make error notifications permanently visible
+- UE/Raid Leech modes now have additional RNG interval (up to 4 seconds) between function calls
 
 ### Fixed
-- (UE / Raid Leech) Auto-reload function crashes the game
+- Director crashes when `You Died` triggers due to joining to already joined room or non-existent room
+- UE mode unresolved pending battles
+- Director crashes when looking for `difficulty` while `currentQuest` is null
+
+### Removed
+- UE mode's automated joining method
 
 ## ⚠️ Preface
 - **Director** = the script itself
