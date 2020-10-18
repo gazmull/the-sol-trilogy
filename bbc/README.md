@@ -4,32 +4,10 @@ Originally Battle Convenience Package. Self explanatory.
 Derived from ctr's scripts.
 
 ## What's New
-![BBC Version](https://img.shields.io/badge/BBC-v0.12.3-orange) - 03-10-2020
-
-### Fixed
-- Numeric HP value overalapping HP% (ESP)
-
-![BBC Version](https://img.shields.io/badge/BBC-v0.12.2-orange) - 01-10-2020
-
-### Changed
-- Removed HP% (ESP)
-
-### Fixed
-- Accommodate changes to rescue popup (disabled rescue popup)
-
-![BBC Version](https://img.shields.io/badge/BBC-v0.12.1-orange) - 13-09-2020
-
-### Fixed
-- Another instance of game freezing code
-
-![BBC Version](https://img.shields.io/badge/BBC-v0.12.0-orange) - 07-09-2020
+![BBC Version](https://img.shields.io/badge/BBC-v0.13.0-orange) - 19-10-2020
 
 ### Added
-- Block `Reflect` message
-- Game freezing errors patch
-- Game shortcuts:
-  - Hotkey `R`: **Goes to public raids list**
-  - Hotkey `T`: **Goes to your raid quests list**
+- [ESP] HP% display on allies
 
 ## Features
 Hotkeyed features' settings are saved.
