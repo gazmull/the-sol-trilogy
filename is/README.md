@@ -4,23 +4,10 @@ Inspired by Crossak's Sol Battler. No, not the one modified by gbros and his boy
 Best used with [Sol's Black Cock](../bbc/README.md)!
 
 ## What's New
-![IS Version](https://img.shields.io/badge/IS-v0.12.0-orange) - 10-10-2020
+![IS Version](https://img.shields.io/badge/IS-v0.13.0-orange) - 12-11-2020
 
 ### Added
-- Weekly Advent Mode
-- UE mode room joining settings (Raid # to join)
-- Added auto attack behaviour for UE mode if boss has less than 10 million HP
-
-### Changed
-- UE/Raid Leech modes now have additional RNG interval (up to 4 seconds) between function calls
-
-### Fixed
-- Director crashes when `You Died` triggers due to joining to already joined room or non-existent room
-- UE mode unresolved pending battles
-- Director crashes when looking for `difficulty` while `currentQuest` is null
-
-### Removed
-- UE mode's automated joining method
+- Support for All Star Advent Battle event
 
 ## ⚠️ Preface
 - **Director** = the script itself
